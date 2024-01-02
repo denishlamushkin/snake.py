@@ -1,2 +1,3 @@
 # snake.py
-Snake game in python
+Snake game in [python]<https://www.python.org/>
+
