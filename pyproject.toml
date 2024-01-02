@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "snake-py"
+version = "0.1.0"
+description = "Simple snake game written in python using pygame."
+authors = ["Denis Hlamushkin <rei.0509hl@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pygame = "^2.5.2"
+pyinstaller = "^6.3.0"
+
+[tool.poetry.group.dev.dependencies]
+pygame = "^2.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
